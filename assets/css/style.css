@@ -1,0 +1,33 @@
+.navbar {
+    /* color: #55b8a2; */
+    background-color: #f2f2ed;
+}
+
+/* .h1 {
+    color: #55b8a2;
+} */
+
+.navbar-brand {
+    color: #55b8a2;
+}
+
+.nav-link {
+    color: black;
+}
+
+/* #navbarText .navbar-nav .nav-link {
+    color: black;
+} */
+
+#main_section {
+    background-color: #f2f2ed;
+}
+
+h2 {
+    color: #55b8a2;
+}
+
+footer {
+    /* background-color: #626262; */
+    color: #626262;
+}

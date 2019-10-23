@@ -1,3 +1,6 @@
+body {
+    font-family: 'Mallanna', sans-serif;
+}
 .navbar {
     /* color: #55b8a2; */
     background-color: #f2f2ed;
@@ -30,4 +33,17 @@ h2 {
 footer {
     /* background-color: #626262; */
     color: #626262;
+}
+
+.project {
+    background-color: #234789;
+    opacity: .8;
+}
+
+.badge {
+    background-color: #55b8a2;
+}
+
+.img-fluid {
+    max-width: 50%;
 }

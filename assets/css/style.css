@@ -40,10 +40,20 @@ footer {
     opacity: .8;
 }
 
+.card-img{
+    opacity: .4;
+
+}
+
 .badge {
     background-color: #55b8a2;
 }
 
 .img-fluid {
     max-width: 50%;
+}
+
+.btn {
+    background-color: #f2f2ed;
+    opacity: .7;
 }

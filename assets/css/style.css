@@ -1,6 +1,15 @@
 body {
     font-family: 'Mallanna', sans-serif;
+    /* background: url("assets/img/dot-grid.png") repeat-y; */
+    background-image: url("../img/dot-grid.png");
+    height: 100%;
+    background-repeat: repeat;
+
+    /* background: #bcd3ce; */
+    /* background-size: cover; */
 }
+
+
 .navbar {
     /* color: #55b8a2; */
     background-color: #f2f2ed;
@@ -40,7 +49,7 @@ footer {
     opacity: .8;
 }
 
-.card-img{
+.card-img {
     opacity: .4;
 
 }
@@ -57,3 +66,9 @@ footer {
     background-color: #f2f2ed;
     opacity: .7;
 }
+
+/* #p.container {
+    background: transparent;
+    width: 1598px;
+    height: 888px;
+} */

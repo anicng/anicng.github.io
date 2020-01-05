@@ -16,6 +16,7 @@ li {
 .navbar-brand {
     font-family: 'Caveat', cursive;
     font-size: 30px;
+    color: #55b8a2;
 }
 
 .navbar {
@@ -24,14 +25,6 @@ li {
 }
 
 a:hover {
-    color: #55b8a2;
-}
-
-/* .h1 {
-    color: #55b8a2;
-} */
-
-.navbar-brand {
     color: #55b8a2;
 }
 

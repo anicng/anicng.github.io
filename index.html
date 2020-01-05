@@ -5,75 +5,261 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- bootstrap -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/open-iconic/1.1.1/font/css/open-iconic-bootstrap.min.css"
     integrity="sha256-BJ/G+e+y7bQdrYkS2RBTyNfBHpA9IuGaPmf9htub5MQ=" crossorigin="anonymous" />
-    <link href="https://fonts.googleapis.com/css?family=Mallanna&display=swap" rel="stylesheet">  
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <!-- google font  -->
+  <link href="https://fonts.googleapis.com/css?family=Caveat&display=swap" rel="stylesheet">
 
-  <title>Contact</title>
+  <link href="https://fonts.googleapis.com/css?family=Mallanna&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+  <title>Annie Cheng</title>
 </head>
 
 <body>
-   <!-- Navbar min 576 -->
-   <nav class="navbar navbar-expand">
-      <!-- <a class="d-inline p-2 bg-primary text-white" href="index.html">Annie Cheng</a> -->
-      <!-- navbar header name    -->
-      <a class="navbar-brand mb-0 ml-2 h1" href="index.html">Annie Cheng</a>
-      <!-- navbar menu items -->
-  
-      <div class="collapse navbar-collapse" id="navbarText">
-        <!-- ml-auto allows menu to float right  -->
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item p-2">
-            <a class="nav-link" href="index.html">Contact</a>
-          </li>
-          <li class="nav-item active p-2">
-            <a class="nav-link" href="portfolio.html">Portfolio<span class="sr-only">(current)</span></a>
-          </li>
-        </ul>
-      </div>
-    </nav>
+  <!-- Navbar min 576 -->
+  <nav class="navbar navbar-expand navbar-fixed-top">
+    <!-- <a class="d-inline p-2 bg-primary text-white" href="index.html">Annie Cheng</a> -->
+    <!-- navbar header name    -->
+    <a class="navbar-brand mb-0 ml-2 h1" href="#contact">Annie Cheng</a>
+    <!-- navbar menu items -->
+
+    <div class="collapse navbar-collapse" id="navbarText">
+      <!-- ml-auto allows menu to float right  -->
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item p-2">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+        <li class="nav-item active p-2">
+          <a class="nav-link" href="#portfolio">Portfolio<span class="sr-only">(current)</span></a>
+        </li>
+      </ul>
+    </div>
+  </nav>
 
   <br>
-
-  <!-- <div class="container-fluid" style=”background-image: url(‘assets/backgound/old_wall_@2X.png’)”> -->
-  <!-- Content row  -->
-  <div class="container-fluid container page">
-
-  <div class="row justify-content-md-center">
-    <div class="col-xs-12 col-md-9" id="main_section">
-      <br>
-      <br>
-      <!-- Title row  -->
-      <div class="row align-items-center">
-        <div class="col-6 text-center">
-          <h2>Contact</h2>
+  
+  <div class="container-fluid container" id="portfolio">
+    <!-- Content row  -->
+    <div class="row justify-content-md-center">
+      <div class="col-xs-12 col-md-9" id="main_section">
+        <br>
+        <br>
+        <!-- Title row  -->
+        <div class="row justify-content-md-center">
+          <div class="col-11">
+            <h2>Portfolio</h2>
+          </div>
         </div>
+        <br>
+
+        <!-- second row of image  -->
+        <div class="row">
+          
+          <div class="col-xs-12 col-md-6">
+            <div class="card text-white mb-3">
+              <div class="card-header project">Burger tracker</div>
+              <div class="card-body project">
+                <h5 class="card-title">An application to keep track of burgers you wanted to eat!</h5>
+                <!-- <p class="card-text">Bootcamp Project 1</p> -->
+                <a href="https://github.com/anicng/burger" class="btn" target="_blank"><span
+                    class="oi oi-code text-black"></span></a>
+                <a href="https://protected-sea-76567.herokuapp.com/index" class="btn mr-1" target="_blank"><span
+                    class="oi oi-external-link text-black"></span></a>
+                    <br>
+                <span class="badge badge-pill badge-dark">MVC framework</span>
+                <span class="badge badge-pill badge-dark">MySQL</span>
+                <span class="badge badge-pill badge-dark">Node</span>
+                <span class="badge badge-pill badge-dark">Express</span>
+                <span class="badge badge-pill badge-dark">Handlebars</span>
+                <span class="badge badge-pill badge-dark">ORM</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xs-12 col-md-6">
+            <div class="card text-white mb-3">
+              <div class="card-header project">Restaurant Keeper</div>
+              <div class="card-body project">
+                <h5 class="card-title">UI Design | Front End Development</h5>
+                <!-- <p class="card-text">Bootcamp Project 1</p> -->
+                <a href="https://github.com/khnguyen94/potential_project1" class="btn" target="_blank"><span
+                    class="oi oi-code text-black"></span></a>
+                <a href="https://anicng.github.io/Restaurant_Tracker/" class="btn mr-1" target="_blank"><span
+                    class="oi oi-external-link text-black"></span></a>
+                    <br>
+                <span class="badge badge-pill badge-dark">CSS</span>
+                <span class="badge badge-pill badge-dark">Materialized</span>
+                <span class="badge badge-pill badge-dark">Google Fonts</span>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="col-xs-12 col-md-6">
+            <div class="card text-white mb-3">
+              <div class="card-header project">Giftastic</div>
+              <div class="card-body project">
+                <h5 class="card-title">Giphy API | Javascript</h5>
+                <!-- <p class="card-text">Bootcamp Project 1</p> -->
+                <a href="https://github.com/anicng/GifTastic" class="btn" target="_blank"><span
+                    class="oi oi-code text-black"></span></a>
+                <a href="https://anicng.github.io/GifTastic/" class="btn mr-1" target="_blank"><span
+                    class="oi oi-external-link text-black"></span></a>
+                    <br>
+                <span class="badge badge-pill badge-dark">Giphy API</span>
+                <span class="badge badge-pill badge-dark">Javascript</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xs-12 col-md-6">
+            <div class="card text-white mb-3">
+              <div class="card-header project">Hidden Crystal Game</div>
+              <div class="card-body project">
+                <h5 class="card-title">Javascript Practice</h5>
+                <!-- <p class="card-text">Bootcamp Project 1</p> -->
+                <a href="https://github.com/anicng/unit-4-game" class="btn" target="_blank"><span
+                    class="oi oi-code text-black"></span></a>
+                <a href="https://anicng.github.io/unit-4-game/" class="btn mr-1" target="_blank"><span
+                    class="oi oi-external-link text-black"></span></a>
+                    <br>
+                <span class="badge badge-pill badge-dark">Javascript</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xs-12 col-md-6">
+            <div class="card text-white mb-3">
+              <div class="card-header project">Bamazon - "Online shopping" app</div>
+              <div class="card-body project">
+                <h5 class="card-title">"Online shopping" node cli app</h5>
+                <!-- <p class="card-text">Bootcamp Project 1</p> -->
+                <a href="https://github.com/anicng/bamazon" class="btn" target="_blank"><span
+                    class="oi oi-code text-black"></span></a>
+                    <br>
+                <span class="badge badge-pill badge-dark">Node.js</span>
+                <span class="badge badge-pill badge-dark">mysql</span>
+                <span class="badge badge-pill badge-dark">inquirer</span>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xs-12 col-md-6">
+            <div class="card text-white mb-3">
+              <div class="card-header project">TrainScheduler</div>
+              <div class="card-body project">
+                <h5 class="card-title">Firebase practice</h5>
+                <!-- <p class="card-text">Bootcamp Project 1</p> -->
+                <a href="https://github.com/anicng/TrainScheduler" class="btn" target="_blank"><span
+                    class="oi oi-code text-black"></span></a>
+                <a href="https://anicng.github.io/TrainScheduler/" class="btn mr-1" target="_blank"><span
+                    class="oi oi-external-link text-black"></span></a>
+                    <br>
+                <span class="badge badge-pill badge-dark">firebase</span>
+                <span class="badge badge-pill badge-dark">Javascript</span>
+
+              </div>
+            </div>
+          </div>
+
+
+          <!-- <div class="col-xs-12 col-md-6">
+            <div class="card text-black">
+              <img class="card-img" src="assets/img/p1.jpg" alt="Card image">
+              <div class="card-img-overlay">
+                <h5 class="card-title">Restaurant Keeper</h5>
+                <p class="card-text">UI Design | Front End Development</p>
+                <a href="https://github.com/khnguyen94/potential_project1" class="btn mb-2" target="_blank"><span
+                    class="oi oi-code text-black"></span></a>
+                <a href="https://khnguyen94.github.io/potential_project1/" class="btn mb-2"
+                  target="_blank"><span class="oi oi-external-link text-black"></span></a>
+                  <div>
+                <span class="badge badge-pill badge-dark">CSS</span>
+                <span class="badge badge-pill badge-dark">Materialized</span>
+                <span class="badge badge-pill badge-dark">Google Fonts</span>
+              </div>
+              </div>
+            </div>
+          </div> -->
+
+          <!-- <div class="col-xs-12 col-lg-6">
+            <div class="card bg-dark text-white">
+              <img src="assets/img/1498111426849.jpg" class="card-img" alt="project-image">
+              <div class="card-img-overlay">
+                <h5 class="card-title h2">Restaurant Keeper</h5>
+                <p class="card-text">UI Design and Front End Development</p>
+                <p class="card-text">Bootcamp Project 1</p>
+                <a href="#" class="badge badge-pill badge-dark">CSS</a>
+                <a href="#" class="badge badge-pill badge-dark">Materialized</a>
+                <a href="#" class="badge badge-pill badge-dark">Google Fonts</a>
+                <a href="https://khnguyen94.github.io/potential_project1/" class="btn stretched-link"></a>
+              </div>
+            </div>
+          </div> -->
+
+          <!-- <div class="col-xs-12 col-lg-6">
+            <div class="card bg-dark text-white">
+              <img src="assets/img/1498111426849.jpg" class="card-img" alt="project-image">
+              <div class="card-img-overlay">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to addi</p>
+                <p class="card-text">Last updated 3 mins ago</p>
+              </div>
+            </div>
+          </div> -->
+
+        </div>
+        <br>
+        <!-- third row of image  -->
+
+        <br>
+
       </div>
-      <br>
-
-      <!-- Image and text row -->
-      <div class="row text-center">
-        <!-- Image column -->
-        <div class="col-xs-6 col-md-6">
-          <img src="assets/img/profile.png" class="rounded-circle img-fluid" alt="">
-        </div>
-        <!-- Text column -->
-        <div class="col-xs-12 col-md-5">
-          <br>
-          <p class="lead">2 years of Project Management in software industry</p>
-          <p class="lead">Full Stack web developer in progress</p>
-          <p><span class="oi oi-envelope-closed"></span> annie.yiyunc@gmail.com</p>
-
-        </div>
-
-      </div>
-      <br>
     </div>
   </div>
+  
+<br>
+  <!-- <div class="container-fluid" style=”background-image: url(‘assets/backgound/old_wall_@2X.png’)”> -->
+  <!-- Contact row  -->
+  <div class="container-fluid container page" id="contact">
+
+    <div class="row justify-content-md-center">
+      <div class="col-xs-12 col-md-9" id="main_section">
+        <br>
+        <br>
+        <!-- Title row  -->
+        <div class="row align-items-center">
+          <div class="col-6 text-center">
+            <h2>Contact</h2>
+          </div>
+        </div>
+        <br>
+
+        <!-- Image and text row -->
+        <div class="row text-center">
+          <!-- Image column -->
+          <div class="col-xs-6 col-md-6">
+            <img src="assets/img/profile.png" class="rounded-circle img-fluid" alt="">
+          </div>
+          <!-- Text column -->
+          <div class="col-xs-12 col-md-5">
+            <br>
+            <p class="lead">2 years of Project Management in software industry</p>
+            <p class="lead">Full Stack web developer in progress</p>
+            <p><span class="oi oi-envelope-closed"></span> annie.yiyunc@gmail.com</p>
+
+          </div>
+
+        </div>
+        <br>
+      </div>
+    </div>
   </div>
   <br>
   <!-- footer row  -->

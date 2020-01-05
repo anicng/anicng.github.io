@@ -1,5 +1,7 @@
 body {
-    font-family: 'Mallanna', sans-serif;
+    /* font-family: 'Mallanna', sans-serif; */
+    font-family: 'Montserrat', sans-serif;
+
     /* background: url("assets/img/dot-grid.png") repeat-y; */
     background-image: url("../img/dot-grid.png");
     height: 100%;
@@ -9,11 +11,19 @@ body {
     /* background-size: cover; */
 }
 
+.navbar-brand {
+    font-family: 'Caveat', cursive;
+    font-size: 30px;
+};
 
 .navbar {
-    /* color: #55b8a2; */
+    color: #55b8a2;
     background-color: #f2f2ed;
 }
+
+a:hover {
+    color: #55b8a2;
+  }
 
 /* .h1 {
     color: #55b8a2;
